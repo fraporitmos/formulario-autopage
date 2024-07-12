@@ -39,6 +39,7 @@ document.getElementById("btnSend")
     }
 
 
+
     if(errores == true){
         errores =false
         alert("revisa tus datos")
@@ -47,7 +48,14 @@ document.getElementById("btnSend")
         errores =false
         alert("Todos los datos son correctos.")
     }
-   
-   
 
+
+    /* 
+    AGREGAR 3 INPUTS Y VALIDAR LO SIGUIENTE:
+    1. Validaen si todos los inputs estan vacios o no 
+    2. Agregar un  INPUT para VALIDAR SI ES F/ M / O
+    3. Agregar un INPUT para agregar una direccion 
+    
+    
+    */
 })
