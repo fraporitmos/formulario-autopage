@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="navigationContainer">
+            <img class="logo" src="assets/logo.png" />
+            <ul class="navigation">
+                <li>
+                    <a href="">Nosotros</a>
+                </li>
+                <li>
+                    <a href="">Marcas</a>
+                </li>
+                <li>
+                    <a href="">Servicio</a>
+                </li>
+                <li>
+                    <a href="">Soporte</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <button class="iconSignIn">😀</button>
+            <button class="btnSignIn">Iniciar sesion</button>
+        </div>
+    </nav>
+    <nav class="banner">
+        <div class="bannerText">
+            <h1 class="bannerTextPrimary">
+                Encuentra tu auto <span>XYZ perfecto</span> hoy conduce tus sueños mañana
+            </h1>
+        </div>
+        <img class="auto" src="assets/auto.png" />
+    </nav>
+    <nav class="filterContainer">
+            <select class="marcaSelect" name="marca" id="marca">
+                <option value="auto_1">Auto 1</option>
+                <option value="auto_2">Auto 2</option>
+                <option value="auto_3">Auto 3</option>
+                <option value="auto_4">Auto 4</option>
+            </select>
+            <select name="clase" id="clase">
+                <option value="clase_1">Clase 1</option>
+                <option value="clase_2">Clase 2</option>
+                <option value="clase_3">Clase 3</option>
+                <option value="clase_4">Clase 4</option>
+            </select>
+            <select name="km" id="km">
+                <option value="km_1">km 1</option>
+                <option value="km_2">km 2</option>
+                <option value="km_3">km 3</option>
+            </select>
+            <select class="ruedasSelect" name="numRuedas" id="numRuedas">
+                <option value="numRuedas_1"> 1 Ruedas</option>
+                <option value="numRuedas_2"> 2 Ruedas</option>
+                <option value="numRuedas_3"> 3 Ruedas</option>
+            </select>
+        <button class="btnSearch">
+            Buscar
+        </button>
+    </nav>
+
+    <p class="textContact">Contactanos</p>
+    <div class="containerForm">
+        <form class="form" action="">
+            <input id="inputName" type="text" placeholder="Ingresa tu nombre"/>
+            <input id="inputEmail"type="email" placeholder="Ingresa tu correo" />
+            <input id="inputPhone"type="number" placeholder="Ingresa tu telefono"/>
+        </form>
+        <button id="btnSend" class="btnSend">
+            Buscar
+        </button>
+    </div>
+    <script src="app.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20em;
+}
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+.logo{
+    width: 100px;
+    height: 45px;
+}
+.navigationContainer{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+ul>li>a{
+ text-decoration: none;
+ color: white;
+ cursor: pointer;
+ padding: 6px 16px 6px 16px ;
+ font-size: 16px;
+ font-weight: bold;
+}
+ul>li>a:hover{
+ background-color: white;
+ color: #000;
+ border-radius: 16px;
+}
+
+.iconSignIn{
+    background-color: #098D2D;
+    border-radius: 20px;
+    padding: 6px 12px 6px 12px;
+    border-width: 0;
+}
+.btnSignIn{
+    color: white;
+    background-color: #098D2D;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.auto{
+    width: 758px;
+    height: 410px;
+}
+.bannerTextPrimary{
+    font-size: 46px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.bannerTextSecondary{
+    font-size: 46px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.bannerText{
+    width: 35vw;   
+  
+}
+
+span{
+    color:#078D2D
+}
+
+.filterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+select{
+    padding: 24px 36px 26px 36px;
+    border: 1px solid #C4C4C4;
+    font-size: 15px;
+    color:#000;
+    font-weight: 700;
+
+}
+.marcaSelect{
+    border-radius: 20px 0px 0px 20px;
+}
+.ruedasSelect{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.btnSearch{
+    background-color: #317AE7;
+    padding: 24px 36px 24px 36px;
+    border-radius: 20px;
+    border: 1px solid #265EB2;
+    color: white;
+    margin-left: 16px;
+}
+
+.containerForm{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.textContact{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnSend{
+    background-color: #317AE7;
+    padding: 12px 36px 12px 36px;
+    border-radius: 20px;
+    border: 1px solid #265EB2;
+    color: white;
+    margin-left: 16px;
+    margin-bottom: 46px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+}
+
+input{
+    margin: 8px;
+    padding: 12px;
+}
